@@ -1,0 +1,370 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+HTML5
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<title>Navegação Vertical</title>
+		<meta charset="UTF-8">
+
+        <!-- Estilo Customizado -->
+</head>
+
+
+<body> 
+
+    </body>
+</html>
+--------------------------------------------------------------------------------------------
+
+ESTRUTURA DA PAGINA:
+
+	<!DOCTYPE html/> (Indica qual e o tipo do arquivo.)
+	<html> (Indica aonde começa e termina o codigo HTML.)
+	<body> (Interação que aparece diretamente para o usuário.)
+	<head> (Configurar interação que não aparece pro usuário.)
+	<title> (Define o titulo da pagina.)
+	<meta charset="UTF-8"> (Define o tipo de asentuação que sera utilizada.)
+	</> (Abrir e fechar Tag.)
+
+--------------------------------------------------------------------------------------------
+
+TIPOS DE FONTES:
+
+	<strong> / <b> (Negrito.)
+	<hr> (Linha Horizontal.)
+	<br> (Quebra de Linha.)
+	<em> / <i> (Itálico.)
+	<strike> / <del> (Errado.)
+	<marke> (Texto com marcação.)
+	<small> (deixa a letra pequena.)
+	<ins> (Deixa o texto sublinhado em baixo.)
+
+--------------------------------------------------------------------------------------------
+
+TIPOS DE LISTAS:
+
+	<ul> (Lista não ordenada.)
+	<li> (Itens da lista.)
+	<ol> (Lista ordenadas.)
+
+--------------------------------------------------------------------------------------------
+
+	<p> (Paragrafo do texto.)
+	<h1> (header cabeçalho de titulo "Hierarquia de titulo".)
+	<!-- Comentarios --> (Comentario.)
+	<img src=""> (Inserir uma imagem no arquivo html.)
+	width=""> (Largura.)	
+	height=""> (Altura.)
+	<a href="link ou arquivo"></a> (Ancorar HiperLink.)
+
+--------------------------------------------------------------------------------------------
+
+TIPOS DE TABELAS:
+
+	<table border="2"> (Tabela com pixel.)
+	<tr> (Linha da tabela.)
+	<td> (Dados da tabela.)
+	<th> (Centralizado e Negrito.)
+
+--------------------------------------------------------------------------------------------
+
+TIPOS DE LISTAS NÃO ORDENADA:
+
+	<ul type="circle"> (Circulo.)
+	<ul type="square"> (Quadrado.)
+	<ul type="disc"> (Disco.)
+
+--------------------------------------------------------------------------------------------
+
+TIPOS DE LISTAS ORDENADA:
+
+	<ol type="1"> (Numerico.)
+	<ol type="A,a"> (Alfabetico.)
+	<ol type="I,i"> (algarismo Romano.)
+
+
+--------------------------------------------------------------------------------------------
+
+FORMULARIO:
+
+<form> (Formulario.)
+	<input type="password" name="senha"> (TYPE: Inserir Tipo do Texto NAME: recuperar os dados.)
+	<input type="button" value="Logar"> (Botão escrito Logar.)
+
+--------------------------------------------------------------------------------------------
+
+CADASTRO USUÀRIO:
+
+Login:<br>
+	<input type="text" name="login">
+
+--------------------------------------------------------------------------------------------
+
+SELECIONAR 1 OPÇÃO:
+
+sexo:<br>
+	<input type="radio" name="sexo" value="M"> Masculino<br>
+	<input type="radio" name="sexo" value="F"> Feminino<br>
+
+--------------------------------------------------------------------------------------------
+
+SELECIONAR 2 OU MAIS OPÇÔES:
+
+Interesses<br>
+	<input type="checkbox" name="interesses"> Futebol<br>
+	<input type="checkbox" name="interesses"> Cursos<br>
+	<input type="checkbox" name="interesses"> Moda<br>
+
+--------------------------------------------------------------------------------------------
+
+OPÇÔES DE ESTADO EM LISTA:
+
+Estado<br>
+<select>
+	<option>SP</option>
+	<option>RJ</option>
+	<option>MG</option>
+	<option>RS</option>
+</select>
+
+--------------------------------------------------------------------------------------------
+
+CAIXA DE TEXTO:
+
+Observações: <br>
+        <textarea></textarea>
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+CSS3:
+
+INLINE STYLE:
+	<p style=" color: red;">
+ 
+--------------------------------------------------------------------------------------------
+
+INTERNAL STYLE SHEET:
+	<head>
+	<style type="text/css"> 
+	p{
+	color: gold;
+	}
+	</style>
+	</head>
+
+--------------------------------------------------------------------------------------------
+
+CLASSES:
+	<head>
+	<style type="text/css"> 
+        .green {
+            color: crimson;
+        }
+        </style>
+	</head>
+
+--------------------------------------------------------------------------------------------
+
+TAMANHOS DE TEXTOS:
+	px -> Tamanho Fixo.
+	% -> Tamanho Relativo.
+	em -> Tamanho relativo ao container pai.
+
+--------------------------------------------------------------------------------------------
+
+ELEMENTOS BLOCOS:
+	ELEMENTO BLOCK: <1> , <p> , <table>
+
+	ELEMENTO INLINE: <a> , <span> , <img>
+
+--------------------------------------------------------------------------------------------
+
+ELEMENTO INLINE-BLOCK: display: inline-block;
+
+--------------------------------------------------------------------------------------------
+
+FORMATOS DE LINKS:
+LINKS VISITADOS:
+a: visited{
+color: ;
+}
+
+--------------------------------------------------------------------------------------------
+
+LINKS HOVER, PASSA O CURSOR SOBRE O LINK:
+a:houver{
+	color: ;
+	background: ;
+}
+
+--------------------------------------------------------------------------------------------
+
+LINKKS ATIVOS, QUANDO CLICADO:
+a: active{
+	color: ;
+}
+
+--------------------------------------------------------------------------------------------
+
+SELETOR UNIVERSAL:
+
+*{
+   border: 1px solid red;
+}
+
+--------------------------------------------------------------------------------------------
+
+SELETOR DE CLASSE:
+
+.verde {
+	color: green;
+}
+
+p.verde {
+	color:green;
+}
+
+--------------------------------------------------------------------------------------------
+
+SELETOR DE ID:
+
+#cabecalho {
+	border: 2px solid blue;
+}
+
+--------------------------------------------------------------------------------------------
+
+SELETOR DE FILHO:
+li>a {
+color: red;
+text-decoration: none;
+}
+
+--------------------------------------------------------------------------------------------
+
+SELETOR DE DESCENDENTE:
+li a {
+	color: yellow;
+}
+
+--------------------------------------------------------------------------------------------
+
+SELETOR DE IRMÃO ADJACENTE:
+h1+p {
+	color: crimson;
+	texte- decoration: none;
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+JAVASCRIPT
+
+VARIAVEÍS:
+
+String (Letras):
+var texto = 'Curso de Javascript'
+
+--------------------------------------------------------------------------------------------
+
+Number (Valores Int and Floot):
+var numeroInteiro = -7
+var numeroFracionado = 100000000.75
+
+--------------------------------------------------------------------------------------------
+
+Boolean (Valores Falsos ou Verdadeiros):
+var teste = false // true -> verdadeiro / false -> falso
+
+--------------------------------------------------------------------------------------------
+
+Alert (Mostrar a Variavel Declarada):
+alert(numeroInteiro) //abrir um dialog
+
+--------------------------------------------------------------------------------------------
+
+Write (Escrever no Index.html):
+document.write(texto)
+
+--------------------------------------------------------------------------------------------
+
+Log (Ocultar info):
+console.log(numeroInteiro)
+
+--------------------------------------------------------------------------------------------
+
+CONCATENAÇÃO (Juntar uma Variavel):
+
+document.write('<h1>Olá' + nome + ', tudo bem ?<h2>)
+
+
+--------------------------------------------------------------------------------------------
+
+IF:
+
+Prompt (Usuário Digita):
+
+var nome = prompt('Digite seu nome')
+
+var idade = 18;
+
+if (idade < 18 || idade >70){
+    console.log("pode");
+    console.log("Qual o seu pedido ?");
+}
+
+else if (idade >= 18) {
+    console.log("pode");
+    console.log("Me mostra sua idadentidade ?");
+    
+}
+
+else {
+    console.log("não pode");
+    console.log("Volte futuremante");
+}
+
+--------------------------------------------------------------------------------------------
+SWITCH, CASE AND BREAK:
+
+var nota1 = 8.0;
+var nota2 = 10.0;
+
+var media = (nota1 + nota2) / 2;
+
+var conceito = ""
+if(media >= 8 ) {
+conceito = "Ótimo";
+}
+
+else if (media > 6.5){
+conceito = "Bom";
+}
+
+else {
+conceito = "Regular";
+}
+
+conceito = "Mais ou menos";
+console.log(media);
+console.log(conceito);
+
+switch(conceito){
+
+    case "Ótimo":
+        console.log("Parabéns, você é um ótimo aluno");
+        break;
+
+    case "Bom":
+        console.log("Você está quase perfeito");
+        break;
+
+    case "Regular":
+        console.log("Estude mais um pouco");
+        break;
+    default:
+        console.log("Houve um erro")
+        break;
+}

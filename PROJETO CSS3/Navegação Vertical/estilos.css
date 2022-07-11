@@ -1,0 +1,18 @@
+/******** Estilo Customizado 
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(../Navegação\ Vertical/seta.png) no-repeat left center;
+}
+********/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
